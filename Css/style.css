@@ -276,6 +276,14 @@ a:hover{
         top: 6.5vh;
         height: 100vh;
     }
+    .eldio{
+        
+        background: url(../images/BG1.jpg) no-repeat center center;
+        background-attachment: fixed;
+        background-size: cover;
+        height: 500px;
+      
+    }
     
 
 }
