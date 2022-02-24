@@ -103,6 +103,9 @@
 #habilidades li img{
     margin-bottom: 5px;
 }
+#jsimg{
+    width: 64px;
+}
 
 #projetos{
     text-align: center;
