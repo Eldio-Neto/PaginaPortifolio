@@ -5,6 +5,10 @@
     font-family: "Roboto", Arial, Helvetica, sans-serif;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 .top{
     position: fixed;
     top: 0;
@@ -102,6 +106,8 @@
 }
 #habilidades li img{
     margin-bottom: 5px;
+    width: 70px;
+    height: 70px;
 }
 #jsimg{
     width: 64px;
@@ -117,6 +123,7 @@
     flex-wrap: wrap;
     width: 80%;
     margin: auto;
+    gap: 10px;
 }
 
 .card{
