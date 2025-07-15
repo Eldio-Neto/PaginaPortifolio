@@ -1,15 +1,18 @@
 <!DOCTYPE html>
-<html lang="Pt-br">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfólio de Eldio de Almeida - Desenvolvedor Full Stack especializado em JavaScript, React, Node.js e muito mais.">
+    <meta name="keywords" content="desenvolvedor, fullstack, javascript, react, nodejs, php, laravel">
     <link rel="stylesheet" href="./Css/style.css">
-    <title>Portifólio</title>
+    <link rel="icon" href="./images/icon.png" type="image/png">
+    <title>Eldio de Almeida | Desenvolvedor Full Stack</title>
 </head>
 
-<body style="margin-top: 40px;">
+<body>
     <section class="site">
         <header class="top">
             <img class="coding" src="./images/icon.png" alt="coding">
@@ -30,184 +33,118 @@
 
         <div class="eldio">
             <div id="info">
-                <h1>Fala galera, me chamo Eldio :D</h1>
-                <h3>Bem vindos ao meu Portifólio!</h3>
+                <h1 id="typing-text"></h1>
+                <h3>Desenvolvedor Full Stack & Analista de Sistemas</h3>
+                <p style="color: var(--text-muted); font-size: 1.1rem; margin-top: 16px; max-width: 600px;">
+                    Transformando ideias em soluções digitais inovadoras com mais de 3 anos de experiência em desenvolvimento web
+                </p>
             </div>
         </div>
 
+
         <main>
-
-            <article id="sobre" style="padding: 40px;">
-                <h1>Sobre mim</h1>
+            <article id="sobre">
+                <h1>💼 Sobre mim</h1>
                 <hr>
                 <p>
-                    Olá! Meu nome é Eldio e sou Desenvolvedor Fullstack. Atualmente, estou estudando Análise e
-                    Desenvolvimento de Sistemas e tenho formação em Contabilidade.
+                    Sou um <strong>Desenvolvedor Full Stack</strong> apaixonado por tecnologia e inovação. Atualmente cursando Análise e Desenvolvimento de Sistemas, com formação em Contabilidade, o que me proporciona uma visão única tanto técnica quanto de negócios.
                 </p>
                 <p>
-                    Tenho mais de 3 anos de experiência trabalhando com desenvolvimento web, utilizando linguagens de
-                    programação como JavaScript, TypeScript e PHP, bem como bibliotecas e frameworks como jQuery,
-                    Laravel, React e React Native. Também tenho experiência em plataformas como Node.js e bancos de
-                    dados como Postgres, MySQL e Oracle.
+                    Com <strong>mais de 3 anos de experiência</strong> em desenvolvimento web, trabalho com tecnologias modernas como JavaScript, TypeScript, PHP, React, React Native, Vue.js, Laravel e Node.js. Tenho expertise em bancos de dados como PostgreSQL, MySQL e Oracle.
                 </p>
                 <p>
-                    Por ter formação e contabilidade tenho facilidade com análise de requisito e desenvolvimento de
-                    aplicações voltadas para os setores Contábil, Fiscal, Contas a pagar, Contas a receber, Estoque WMS
-                    e Compras.
+                    Minha formação em contabilidade me permite compreender profundamente as necessidades dos setores <em>Contábil, Fiscal, Financeiro</em> e <em>WMS</em>, desenvolvendo soluções sob medida que realmente atendem às demandas do mercado.
                 </p>
                 <p>
-                    Sinta-se à vontade para entrar em contato comigo e conversar sobre oportunidades de colaboração ou
-                    projetos que possam ser do seu interesse.
+                    Estou sempre em busca de novos desafios e oportunidades para aplicar minha experiência em projetos inovadores. <strong>Vamos conversar sobre como posso contribuir para o seu próximo projeto?</strong>
                 </p>
-
             </article>
 
-            <article id="habilidades" style="padding: 40px;">
-                <h1>Habilidades</h1>
+            <article id="habilidades">
+                <h1>🚀 Habilidades Técnicas</h1>
                 <hr>
-
-                <ul>
-                    <li><img src="./images/html-5 (1).png" alt=""> HTML</li>
-                    <li><img src="./images/css-3 (1).png" alt="">CSS</li>
-                    <li><img src="./images/js (3).png" alt="">JavaScript</li>
-                </ul>
-                <ul>
-                    <li>
-                        <img src="./images/science.png" alt=""> React
-                    </li>
-                    <li>
-                        <img src="./images/physics.png" alt=""> React Native
-                    </li>
-                    <li>
-                        <img src="./images/vuejs-brands-solid.png" alt=""> Vue3
-                    </li>
-                </ul>
-                <ul>
-                    <li>
-                        <img src="./images/node-brands-solid_1.png" alt=""> Node
-                    </li>
-                    <li>
-                        <img src="./images/laravel-brands-solid_1.png" alt=""> Laravel
-                    </li>
-                    <li>
-                        <img src="./images/database-solid.png" alt=""> SQL 
-                    </li>
-                </ul>
-                
+                <div class="skills-grid">
+                    <div class="skill-item"><img src="./images/html-5 (1).png" alt="HTML5"> <span>HTML5</span></div>
+                    <div class="skill-item"><img src="./images/css-3 (1).png" alt="CSS3"> <span>CSS3</span></div>
+                    <div class="skill-item"><img src="./images/js (3).png" alt="JavaScript"> <span>JavaScript</span></div>
+                    <div class="skill-item"><img src="./images/science.png" alt="React"> <span>React</span></div>
+                    <div class="skill-item"><img src="./images/physics.png" alt="React Native"> <span>React Native</span></div>
+                    <div class="skill-item"><img src="./images/vuejs-brands-solid.png" alt="Vue.js"> <span>Vue.js</span></div>
+                    <div class="skill-item"><img src="./images/node-brands-solid_1.png" alt="Node.js"> <span>Node.js</span></div>
+                    <div class="skill-item"><img src="./images/laravel-brands-solid_1.png" alt="Laravel"> <span>Laravel</span></div>
+                    <div class="skill-item"><img src="./images/database-solid.png" alt="SQL"> <span>SQL</span></div>
+                </div>
             </article>
 
-            <article id="projetos" style="padding: 40px;">
-                <h1>Projetos</h1>
+
+            <article id="projetos">
+                <h1>💻 Projetos em Destaque</h1>
                 <hr>
                 <div class="cards">
-
                     <div class="card">
-
-                        <img src="./images/ENsite.png" alt="">
-
-                        <h2>Pagina de Portifólio</h2>
-                        <p class="descricao">Pagina de portifólio para facilitar o acesso aos projetos que desenvolvi.
-                        </p><br>
-
-                        <a href="https://eldio-neto.github.io/PaginaPortifolio/" class="projetos">
-                            <p class="button"> Saiba Mais</p>
-                        </a>
+                        <img src="./images/ENsite.png" alt="Portfólio Pessoal">
+                        <h2>Portfólio Pessoal</h2>
+                        <p class="descricao">Site responsivo desenvolvido para apresentar meus projetos e habilidades profissionais de forma moderna e acessível.</p>
+                        <a href="https://eldio-neto.github.io/PaginaPortifolio/" class="btn" target="_blank">Ver Projeto</a>
                     </div>
-
                     <div class="card Netofy">
-                        <img src="./images/Netofy.PNG" alt="Netofypng" class="projetos">
-
-                        <h2>Netofy</h2>
-                        <p class="descricao">Aplicação de player de musica desenvolvido com design proprio e com uma
-                            playlist limitada de
-                            músicas.
-                        </p>
-
-                        <a href="https://eldio-neto.github.io/netofyPlayer/" target="_blank" class="projetos">
-                            <p class="button"> Saiba Mais</p>
-                        </a>
-
+                        <img src="./images/Netofy.PNG" alt="Netofy Music Player" class="projetos">
+                        <h2>Netofy Music Player</h2>
+                        <p class="descricao">Aplicação web de player de música com design personalizado, interface intuitiva e playlist curada de alta qualidade.</p>
+                        <a href="https://eldio-neto.github.io/netofyPlayer/" target="_blank" class="btn">Ver Projeto</a>
                     </div>
-
                     <div class="card">
-                        <img src="./images/churrascometro.PNG" alt="churrascometropng">
-
+                        <img src="./images/churrascometro.PNG" alt="Churrascômetro Calculator">
                         <h2>Churrascômetro</h2>
-                        <p class="descricao">Projeto que calcula a quantidade de carne e de bebidas para a realização de
-                            um churrasco.</p>
-
-                        <a href="https://eldio-neto.github.io/ProjetoChurrascometro/" target="_blank" class="projetos">
-                            <p class="button"> Saiba Mais</p>
-                        </a>
+                        <p class="descricao">Calculadora inteligente que determina a quantidade ideal de carne e bebidas para churrascos baseado no número de convidados.</p>
+                        <a href="https://eldio-neto.github.io/ProjetoChurrascometro/" target="_blank" class="btn">Ver Projeto</a>
                     </div>
-
                     <div class="card">
-
-                        <img src="./images/Cronometro.png" alt="Cronometropng">
-
-                        <h2>Cronômetro</h2>
-                        <p class="descricao">Projeto de um Cronômetro utilizando HTML, CSS e JavaScript, com design
-                            responsivo.</p>
-
-                        <a href="https://eldio-neto.github.io/TimerSite/" target="_blank" class="projetos">
-                            <p class="button"> Saiba Mais</p>
-                        </a>
-
+                        <img src="./images/Cronometro.png" alt="Cronômetro Digital">
+                        <h2>Cronômetro Digital</h2>
+                        <p class="descricao">Cronômetro web responsivo com interface moderna, desenvolvido com HTML5, CSS3 e JavaScript puro.</p>
+                        <a href="https://eldio-neto.github.io/TimerSite/" target="_blank" class="btn">Ver Projeto</a>
                     </div>
-
                     <div class="card">
-
-                        <img src="./images/starbucks.PNG" alt="Cronometropng">
-
-                        <h2>Projeto Starbucks</h2>
-                        <p class="descricao"> Projeto inspirado em uma landing page do starbucks, utilizando HTML e CSS,
-                            display Grid e Flexbox.</p>
-
-                        <a href="https://eldio-neto.github.io/Landingpage-Starbucks/" target="_blank" class="projetos">
-                            <p class="button"> Saiba Mais</p>
-                        </a>
-
+                        <img src="./images/starbucks.PNG" alt="Starbucks Landing Page">
+                        <h2>Starbucks Landing</h2>
+                        <p class="descricao">Replica moderna da landing page do Starbucks utilizando CSS Grid e Flexbox para layout responsivo e elegante.</p>
+                        <a href="https://eldio-neto.github.io/Landingpage-Starbucks/" target="_blank" class="btn">Ver Projeto</a>
                     </div>
-
                     <div class="card">
-
-                        <img src="./images/Awax.PNG" alt="Cronometropng">
-
-                        <h2>Awax</h2>
-                        <p class="descricao"> Projeto de uma Landing page de um serviço ficticio, usando HTML, CSS e JS,
-                            Display FLEX.</p>
-
-                        <a href="https://eldio-neto.github.io/Landing-pageFlexbox/" target="_blank" class="projetos">
-                            <p class="button"> Saiba Mais</p>
-                        </a>
-
+                        <img src="./images/Awax.PNG" alt="Awax Landing Page">
+                        <h2>Awax Business</h2>
+                        <p class="descricao">Landing page corporativa desenvolvida com foco em conversão, utilizando técnicas avançadas de CSS e JavaScript.</p>
+                        <a href="https://eldio-neto.github.io/Landing-pageFlexbox/" target="_blank" class="btn">Ver Projeto</a>
                     </div>
-
                 </div>
-
             </article>
 
         </main>
 
+
         <footer>
             <article id="contato">
-            <h1>Contato</h1>
-            <hr>
-            <div id="icons">
-                <ul class="footer-list">
-                <li>
-                    <a href="https://www.linkedin.com/in/eldio-de-almeida-a32302194/" target="_blank">
-                    <img src="./images/iconLink.svg" alt="LinkedIn" title="LinkedIn">
-                    </a>
-                </li>
-                <li>
-                    <a href="https://github.com/Eldio-Neto" target="_blank">
-                    <img src="./images/icongithub.svg" alt="GitHub" title="GitHub">
-                    </a>
-                </li>
-                </ul>
-                <p>&copy; 2023 Eldio de Almeida. Todos os direitos reservados.</p>
-            </div>
+                <h1>📬 Vamos Conversar?</h1>
+                <hr>
+                <p style="color: var(--text-secondary); font-size: 1.1rem; margin-bottom: 32px; max-width: 600px; margin-left: auto; margin-right: auto;">
+                    Estou sempre aberto a novas oportunidades e projetos desafiadores. Entre em contato comigo através das redes sociais!
+                </p>
+                <div id="icons">
+                    <ul class="footer-list">
+                        <li>
+                            <a href="https://www.linkedin.com/in/eldio-de-almeida-a32302194/" target="_blank" aria-label="LinkedIn">
+                                <img src="./images/iconLink.svg" alt="LinkedIn" title="Conecte-se no LinkedIn">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/Eldio-Neto" target="_blank" aria-label="GitHub">
+                                <img src="./images/icongithub.svg" alt="GitHub" title="Veja meus repositórios">
+                            </a>
+                        </li>
+                    </ul>
+                    <p>&copy; 2025 Eldio de Almeida. Desenvolvido com ❤️ e muito ☕</p>
+                </div>
             </article>
         </footer>
 
@@ -216,5 +153,6 @@
 
 </body>
 <script src="./script/mobileNavbar.js"></script>
+<script src="./script/typingEffect.js"></script>
 
 </html>
