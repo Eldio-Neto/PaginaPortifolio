@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" fill="none">
+  <path d="M12 2L2 7v10l10 5 10-5V7L12 2z" fill="#339933"/>
+  <path d="M12 2v20" stroke="#2E7D2E" stroke-width="0.5"/>
+  <path d="M2 7l10 5 10-5" stroke="#2E7D2E" stroke-width="0.5"/>
+  <path d="M2 17l10-5 10 5" stroke="#2E7D2E" stroke-width="0.5"/>
+  <circle cx="12" cy="12" r="3" fill="#68CC68"/>
+  <text x="12" y="14" text-anchor="middle" fill="white" font-size="3" font-weight="bold" font-family="Arial, sans-serif">JS</text>
+</svg>
