@@ -184,19 +184,19 @@
 
 .btn:hover {
   background: linear-gradient(135deg, var(--secondary-color), var(--accent-color));
-  transform: translateY(-2px) scale(1.05);
-  box-shadow: 0 8px 25px var(--shadow-primary);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 15px var(--shadow-primary);
   border-color: var(--primary-light);
 }
 
 .card:hover {
-  transform: translateY(-12px);
-  box-shadow: 0 20px 60px var(--shadow-primary);
+  transform: translateY(-6px);
+  box-shadow: 0 12px 40px var(--shadow-primary);
   border-color: var(--primary-color);
 }
 
 .card:hover img {
-  transform: scale(1.05);
+  transform: scale(1.02);
 }
 
 /* Rodapé */
@@ -748,96 +748,25 @@ article p {
   }
 }
 
-/* Estilos adicionais para aspecto profissional */
-
-/* Scroll suave personalizado */
-::-webkit-scrollbar {
-  width: 8px;
+/* Otimizações de performance */
+.card, .skill-item, .btn {
+  will-change: transform, opacity;
 }
 
-::-webkit-scrollbar-track {
-  background: var(--bg-primary);
+.card:hover, .skill-item:hover, .btn:hover {
+  will-change: auto;
 }
 
-::-webkit-scrollbar-thumb {
-  background: linear-gradient(180deg, var(--primary-color), var(--secondary-color));
-  border-radius: 4px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: linear-gradient(180deg, var(--primary-light), var(--accent-color));
-}
-
-/* Textos em destaque */
-strong {
-  color: var(--primary-light);
-  font-weight: 600;
-}
-
-em {
-  color: var(--secondary-color);
-  font-style: normal;
-  font-weight: 500;
-}
-
-/* Efeito de loading para imagens */
-.card img, .skill-item img {
-  opacity: 0;
-  animation: fadeIn 0.6s ease-out forwards;
-}
-
-@keyframes fadeIn {
-  to {
-    opacity: 1;
+/* Suporte para usuários que preferem redução de movimento */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
   }
-}
-
-/* Seleção de texto personalizada */
-::selection {
-  background: var(--primary-color);
-  color: var(--text-primary);
-}
-
-::-moz-selection {
-  background: var(--primary-color);
-  color: var(--text-primary);
-}
-
-/* Focus states para acessibilidade */
-a:focus, .btn:focus {
-  outline: 2px solid var(--primary-color);
-  outline-offset: 2px;
-}
-
-/* Animações de entrada para elementos */
-.skill-item, .card {
-  opacity: 0;
-  transform: translateY(20px);
-  animation: slideUp 0.6s ease-out forwards;
-}
-
-.skill-item:nth-child(1) { animation-delay: 0.1s; }
-.skill-item:nth-child(2) { animation-delay: 0.15s; }
-.skill-item:nth-child(3) { animation-delay: 0.2s; }
-.skill-item:nth-child(4) { animation-delay: 0.25s; }
-.skill-item:nth-child(5) { animation-delay: 0.3s; }
-.skill-item:nth-child(6) { animation-delay: 0.35s; }
-.skill-item:nth-child(7) { animation-delay: 0.4s; }
-.skill-item:nth-child(8) { animation-delay: 0.45s; }
-.skill-item:nth-child(9) { animation-delay: 0.5s; }
-.skill-item:nth-child(10) { animation-delay: 0.55s; }
-
-.card:nth-child(1) { animation-delay: 0.1s; }
-.card:nth-child(2) { animation-delay: 0.2s; }
-.card:nth-child(3) { animation-delay: 0.3s; }
-.card:nth-child(4) { animation-delay: 0.4s; }
-.card:nth-child(5) { animation-delay: 0.5s; }
-.card:nth-child(6) { animation-delay: 0.6s; }
-
-@keyframes slideUp {
-  to {
-    opacity: 1;
-    transform: translateY(0);
+  
+  .card:hover, .skill-item:hover, .btn:hover {
+    transform: none !important;
   }
 }
 

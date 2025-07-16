@@ -1,0 +1,52 @@
+{
+  "projects": [
+    {
+      "id": "portfolio",
+      "title": "Portfólio Pessoal",
+      "image": "./images/ENsite.png",
+      "description": "Site responsivo desenvolvido para apresentar meus projetos e habilidades profissionais de forma moderna e acessível.",
+      "url": "https://eldio-neto.github.io/PaginaPortifolio/",
+      "category": "web"
+    },
+    {
+      "id": "netofy",
+      "title": "Netofy Music Player",
+      "image": "./images/Netofy.PNG",
+      "description": "Aplicação web de player de música com design personalizado, interface intuitiva e playlist curada de alta qualidade.",
+      "url": "https://eldio-neto.github.io/netofyPlayer/",
+      "category": "app"
+    },
+    {
+      "id": "churrascometro",
+      "title": "Churrascômetro",
+      "image": "./images/churrascometro.PNG",
+      "description": "Calculadora inteligente que determina a quantidade ideal de carne e bebidas para churrascos baseado no número de convidados.",
+      "url": "https://eldio-neto.github.io/ProjetoChurrascometro/",
+      "category": "utility"
+    },
+    {
+      "id": "cronometro",
+      "title": "Cronômetro Digital",
+      "image": "./images/Cronometro.png",
+      "description": "Cronômetro web responsivo com interface moderna, desenvolvido com HTML5, CSS3 e JavaScript puro.",
+      "url": "https://eldio-neto.github.io/TimerSite/",
+      "category": "utility"
+    },
+    {
+      "id": "starbucks",
+      "title": "Starbucks Landing",
+      "image": "./images/starbucks.PNG",
+      "description": "Replica moderna da landing page do Starbucks utilizando CSS Grid e Flexbox para layout responsivo e elegante.",
+      "url": "https://eldio-neto.github.io/Landingpage-Starbucks/",
+      "category": "landing"
+    },
+    {
+      "id": "awax",
+      "title": "Awax Business",
+      "image": "./images/Awax.PNG",
+      "description": "Landing page corporativa desenvolvida com foco em conversão, utilizando técnicas avançadas de CSS e JavaScript.",
+      "url": "https://eldio-neto.github.io/Landing-pageFlexbox/",
+      "category": "landing"
+    }
+  ]
+}
